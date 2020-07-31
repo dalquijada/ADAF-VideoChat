@@ -4,14 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>ADAF VideoChat</title>
-        <link
-            rel="stylesheet"
-            type="text/css "
-            href="{{ url_for('static', filename='styles.css') }}"
-        />
+        <link rel="stylesheet" type="text/css " href="../static/styles.css" />
     </head>
     <body>
-        <h1>ADAF Twilio Video Chat</h1>
+        <h1>ADAF Twilio Video22 Chat</h1>
         <form action="">
             <label for="username">Name: </label>
             <input type="text" name="username" id="username" />
@@ -25,6 +21,6 @@
         </div>
 
         <script src="//media.twiliocdn.com/sdk/js/video/releases/2.3.0/twilio-video.min.js"></script>
-        <script scr="{{ url_for('static', filename='app.js') }}"></script>
+        <script src="../static/app.js"></script>
     </body>
 </html>

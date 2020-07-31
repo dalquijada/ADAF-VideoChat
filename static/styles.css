@@ -17,7 +17,7 @@
 .participant div:first-child {
     width: 240px;
     height: 180px;
-    background-color: rgb(70, 27, 27);
+    background-color: rgb(51, 38, 128);
     border: 1px solid black;
 }
 
@@ -27,5 +27,5 @@
 }
 
 h1 {
-    background-color: #5c5ed3;
+    background-color: #1ac3e0;
 }
